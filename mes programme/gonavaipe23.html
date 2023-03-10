@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mon site</title>
+    <style>
+      /* Style pour le bouton */
+      .btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Produit</h1>
+    <p>Nom : Mon produit</p>
+    <p>Description : Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Prix : 50€</p>
+
+    <button class="btn" onclick="redirectToCheckout()">Acheter maintenant</button>
+
+    <script>
+      function redirectToCheckout() {
+        window.location.href = "payement/caisse";
+      }
+    </script>
+  </body>
+</html>
